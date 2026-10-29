@@ -1,0 +1,35 @@
+{
+  "_comment": "平台操作手册技能包 · 用户配置模板。拷贝此文件为 config.json 并填入实际值后，所有脚本会自动读取。",
+  "platform": {
+    "name": "<平台中文名>",
+    "legacy_names": ["<历史平台名/旧域名，用于残留审计；没有就留空数组>"],
+    "base_url": "<https://<平台域名>>",
+    "login_url": "<https://<平台域名>/login?redirect=%2F>",
+    "login_form": {
+      "user_selector": "#username",
+      "pass_selector": "#password",
+      "submit_selector": "button:has-text('登')"
+    }
+  },
+  "env": {
+    "user": "<登录账号>",
+    "pass": "<登录密码，建议用环境变量 MANUAL_PASS 覆盖>",
+    "test_prefix": "ZZTEST_",
+    "headless": true
+  },
+  "paths": {
+    "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "node_modules": "<NODE_PATH>/node_modules",
+    "python": "python3"
+  },
+  "feishu": {
+    "simple_doc_token": "<简版飞书 docx token>",
+    "detail_doc_token": "<详细版飞书 docx token>"
+  },
+  "style": {
+    "viewport_width": 1600,
+    "viewport_height": 950,
+    "locale": "zh-CN",
+    "screenshot_scale": 1
+  }
+}

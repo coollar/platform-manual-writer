@@ -1,0 +1,61 @@
+<title><平台名> 平台操作手册（简版）</title>
+
+<callout>
+<p><b>版本：</b>V1.0 ｜ 覆盖 <模块A> / <模块B> / <模块C> 模块 ｜ 详细版见：<a href="https://<feishu>/docx/<token>">详细版操作手册</a></p>
+</callout>
+
+<h1 seq="auto">写在前面</h1>
+
+<h2 seq="auto">手册说明</h2>
+
+<p><b>这是什么。</b>本手册面向日常使用者的主流程操作，覆盖 <模块A>、<模块B>、<模块C> 三个模块；每个功能小节给出 3–4 步，末尾配实机截图。</p>
+<p><b>怎么用。</b>按左侧菜单找到模块 → 定位小节 → 照步骤操作。截图里的红框和圆圈序号标出了要点的位置。</p>
+<p><b>注意什么。</b>凡涉及状态变更（发布 / 归档 / 删除），本手册都会特别标出；请勿在不确定时对生产数据操作。</p>
+
+<img path="@./shots/f01_main.png" caption="图 1  全平台主路径：从配置到采集到回流"/>
+
+<h1 seq="auto"><模块A></h1>
+
+<h2 seq="auto">模块说明 · <模块A></h2>
+
+<p>这个模块管的是什么、和别的模块什么关系。3–5 句话讲清。</p>
+
+<h2 seq="auto"><功能名></h2>
+
+<p>引导句（一句话）。</p>
+
+<ol>
+<li>点右上角【新建】。</li>
+<li>填名称；<b>XX</b> 为必填。完成：列表出现新记录，状态为「草稿」。</li>
+</ol>
+
+<img path="@./shots/f02_new.png" caption="图 2  新建 XX 的操作要点"/>
+
+<h2 seq="auto">常见问题</h2>
+
+<table>
+<thead><tr><th><p>问题</p></th><th><p>原因</p></th><th><p>处理</p></th></tr></thead>
+<tbody>
+<tr><td><p>示例问题</p></td><td><p>示例原因</p></td><td><p>示例处理</p></td></tr>
+</tbody>
+</table>
+
+<h1 seq="auto">附录</h1>
+
+<h2 seq="auto">状态字典</h2>
+
+<table>
+<thead><tr><th><p>对象</p></th><th><p>状态</p></th><th><p>说明</p></th></tr></thead>
+<tbody>
+<tr><td><p>XX</p></td><td><p>草稿 / 已发布 / 已归档</p></td><td><p>草稿：编辑、发布、删除；已发布：…；已归档：…</p></td></tr>
+</tbody>
+</table>
+
+<h2 seq="auto">名词速查</h2>
+
+<table>
+<thead><tr><th><p>名词</p></th><th><p>含义</p></th></tr></thead>
+<tbody>
+<tr><td><p>XX</p></td><td><p>说明</p></td></tr>
+</tbody>
+</table>
