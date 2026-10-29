@@ -1,0 +1,20 @@
+# 本机实际运行配置（含平台地址、账号口令）—— 绝不入库
+config.json
+config.robot-backup.json
+
+# 登录态
+state.json
+*_state.json
+
+# 运行时产物
+*.pyc
+__pycache__/
+.pycache/
+*.log
+.env
+
+# 手册工作产物
+*_backup.xml
+shots/
+screenshots/
+audit-report-*.md
